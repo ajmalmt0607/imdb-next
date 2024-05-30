@@ -16,7 +16,6 @@ const Home = async ({ searchParams }) => {
         throw new Error("Failed to Fetch data");
     }
     const results = data.results;
-    console.log(results);
     return (
         <div>
             <Results results={results} />
